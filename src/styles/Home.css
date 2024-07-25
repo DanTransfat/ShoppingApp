@@ -1,0 +1,38 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .navbar button {
+    background-color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .navbar button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Item styles */
+  .item-box {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .products-container,
+  .cart-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
