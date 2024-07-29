@@ -8,6 +8,7 @@ import SignIn from "../pages/SignIn";
 import SignUp from "../pages/SignUp";
 import Home from "./Home"
 import Cart from "../components/CartComp"
+import Checkout from "../pages/Checkout"
 
 const Navbar = () => {
     return (
@@ -32,6 +33,10 @@ const Navbar = () => {
                     <Route
                         path="/cart"
                         element={<Cart />}
+                    />
+                    <Route
+                        path="/checkout"
+                        element={<Checkout />}
                     />
                 </Routes>
             </Router>

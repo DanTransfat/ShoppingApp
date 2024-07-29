@@ -1,0 +1,31 @@
+/* CheckoutStyle.css */
+.checkout-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .checkout-form {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .order-summary {
+    margin-bottom: 20px;
+  }
+  
+  .order-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+
+  /* CheckoutStyle.css */
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+  }
